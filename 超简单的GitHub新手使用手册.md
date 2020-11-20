@@ -139,6 +139,8 @@ git@github.com:sadbird1729/TressureBox.git
 
 `git push`
 
+![image-20201120185745513](C:\Users\17067\AppData\Roaming\Typora\typora-user-images\image-20201120185745513.png)
+
 在github上在线修改后，本地是之前版本，本地需要更新：
 
 `git pull`
