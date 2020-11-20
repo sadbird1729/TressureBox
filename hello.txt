@@ -1,1 +1,4 @@
-各类软件的使用
+各类软件的使用技巧：
+0.github
+1.jupyter notebook
+2.Latex
