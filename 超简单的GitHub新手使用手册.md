@@ -1,3 +1,8 @@
+---
+typora-root-url: .pic
+typora-copy-images-to: .pic
+---
+
 # 超简单的GitHub新手使用手册
 
 [TOC]
@@ -151,7 +156,7 @@ git@github.com:sadbird1729/TressureBox.git
 
 > Git 提示fatal: remote origin already exists 错误解决办法https://blog.csdn.net/top_code/article/details/50381432
 >
-> 
+> [Github] Github简易使用指南https://zhuanlan.zhihu.com/p/54127454
 
 
 
