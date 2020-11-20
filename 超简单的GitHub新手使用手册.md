@@ -1,8 +1,3 @@
----
-
-typora-copy-images-to: .pic
----
-
 # 超简单的GitHub新手使用手册
 
 [TOC]
@@ -44,7 +39,9 @@ typora-copy-images-to: .pic
 
  这个命令会在 C:\Users\Administator （Administator为电脑用户名，每个人不同）目录下生成 .gitconfig 文件
 
-![image-20201120191104102](.pic/image-20201120191104102.png)
+![image-20201120192129101](.pic/超简单的GitHub新手使用手册/image-20201120192129101.png)
+
+
 
 ### 为 GitHub 账户设置 SSH key
 
@@ -65,12 +62,12 @@ typora-copy-images-to: .pic
 
 接下来先输入`yes`，表示存储在默认路径；再`二连回车`，表示不设置密码登录。
 
-![image-20201120191122520](.pic/image-20201120191122520.png)
+![image-20201120192151061](.pic/超简单的GitHub新手使用手册/image-20201120192151061.png)
 
 
  生成成功后，去对应目录 `C:\Users\Administator\.ssh` （Administator为电脑用户名，每个人不同）用记事本打开 id_rsa.pub，得到 ssh key公钥。复制下来。
 
-![image-20201120191136950](.pic/image-20201120191136950.png)
+![image-20201120192201459](.pic/超简单的GitHub新手使用手册/image-20201120192201459.png)
 
 
 
@@ -80,11 +77,11 @@ typora-copy-images-to: .pic
 
 接着输入Title,再把刚复制的 id_rsa.pub 文件内容粘贴到Key处，最后 Add SSH key 生成密钥。
 
-![image-20201120191152106](.pic/image-20201120191152106.png)
+![image-20201120192229141](.pic/超简单的GitHub新手使用手册/image-20201120192229141.png)
 
 生成成功。
 
-![image-20201120191204531](.pic/image-20201120191204531.png)
+![image-20201120192241853](.pic/超简单的GitHub新手使用手册/image-20201120192241853.png)
 
 ## 2.GitHub里新建一个repository
 
@@ -132,7 +129,7 @@ git@github.com:sadbird1729/TressureBox.git
 
 完成！！
 
-![image-20201120191220429](.pic/image-20201120191220429.png)
+![image-20201120192328077](.pic/超简单的GitHub新手使用手册/image-20201120192328077.png)
 
 
 
@@ -142,9 +139,14 @@ git@github.com:sadbird1729/TressureBox.git
 
 本地文件更新了，想要传到github:
 
-`git push`
+```
+cd D:/TASK/TressureBox
+git add . 
+git commit -m "2nd commit"
+git push
+```
 
-![image-20201120191233188](.pic/image-20201120191233188.png)
+![image-20201120192348204](.pic/超简单的GitHub新手使用手册/image-20201120192348204.png)
 
 在github上在线修改后，本地是之前版本，本地需要更新：
 
