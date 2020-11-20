@@ -115,6 +115,8 @@ git@github.com:sadbird1729/TressureBox.git
 
 `git remote add origin git@github.com:sadbird1729/TressureBox.git`
 
+**PS:只有第一次创建本地仓库后需要输入此命令。之后不需要此步。**
+
 #### （3）上传本地代码！
 
 `git push -u origin main`
@@ -136,6 +138,8 @@ git@github.com:sadbird1729/TressureBox.git
 在github上在线修改后，本地是之前版本，本地需要更新：
 
 `git pull`
+
+
 
 ## 遇到的问题
 
