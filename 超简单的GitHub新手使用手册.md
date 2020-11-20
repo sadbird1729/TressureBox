@@ -2,7 +2,7 @@
 
 ## 0.先了解一些概念
 
-1. Git是用来管理本地代码库Local repository，这是需要本地安装的；
+1. Git用来管理本地代码库Local repository，这是需要本地安装的；
 2. GitHub是远程代码库remote repository，你想往上面传送和展示code；
 3. Git中的一些基操：
 
@@ -71,7 +71,7 @@
 
 打开 GitHub -->settings-->SSH and GPG keys-->点击 New SSH key。
 
-接着输入Title,再把 id_rsa.pub 文件中 key 粘贴到Key，最后 Add SSH key 生成密钥。
+接着输入Title,再把刚复制的 id_rsa.pub 文件内容粘贴到Key处，最后 Add SSH key 生成密钥。
 
 ![image-20201120180619890](C:\Users\17067\AppData\Roaming\Typora\typora-user-images\image-20201120180619890.png)
 
@@ -109,9 +109,11 @@ git@github.com:sadbird1729/TressureBox.git
 
 `git add .`
 
-`git commit -m "first commit"` <!--双引号里写本次提交的备注-->
+`git commit -m "first commit"` 
 
-#### （2）将该本地仓库关联到github的DLnotes仓库（第2步里创建的）；
+双引号里写本次提交的备注
+
+#### （2）将该本地仓库关联到github的TressureBox仓库（第2步里创建的）；
 
 `git remote add origin git@github.com:sadbird1729/TressureBox.git`
 
@@ -147,3 +149,4 @@ git@github.com:sadbird1729/TressureBox.git
 >
 > 
 
+333
